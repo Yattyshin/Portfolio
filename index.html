@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wyatt Mathew Yatco — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">Portfolio</h1>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-tag">AVAILABLE FOR WORK</p>
+          <h2>Hello, I am <span class="accent">Wyatt Mathew Yatco</span></h2>
+          <p>Aspiring front-end developer building responsive, accessible web solutions with clean UI and performance-first architecture. I enjoy crafting end-to-end experiences and scaling towards full-stack capabilities.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#about">Learn More</a>
+          </div>
+        </div>
+
+        <div class="hero-profile">
+          <div class="profile-ring">
+            <img class="profile-img" src="assets/1x1.png" alt="Wyatt Mathew Yatco" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-card">
+        <h2>Hi! I’m Wyatt Mathew Yatco</h2>
+        <p class="lead">I build accessible, responsive websites and enjoy learning new technologies. I'm an aspiring front-end developer working toward becoming a full-stack developer. I focus on clean, usable interfaces, performance, and accessibility.</p>
+        <ul>
+          <li>Location: Angeles City, Philippines</li>
+          <li>Available for freelance</li>
+          <li>Contact: <a href="mailto:wyattmathewyatco@gmail.com">wyattmathewyatco@gmail.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h3>Skills</h3>
+        <div class="skills-grid">
+          <article class="skill-card"><h4>Front-end</h4><p>HTML, CSS, JavaScript, React</p></article>
+          <article class="skill-card"><h4>Back-end</h4><p>Node.js, Flask, REST APIs</p></article>
+          <article class="skill-card"><h4>Tools</h4><p>Git, VS Code, Figma, Docker</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h3>Selected Projects</h3>
+        <div id="projects-grid" class="projects-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Wyatt Mathew Yatco. Built with HTML, CSS & JS.</p>
+      <p><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://vercel.com/" target="_blank" rel="noreferrer">Vercel</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
